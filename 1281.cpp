@@ -1,7 +1,8 @@
 // 1281. Subtract the Product and Sum of Digits of an Integer
 
 class Solution {
-    public int subtractProductAndSum(int n) {
+public:
+    int subtractProductAndSum(int n) {
         int prod = 1;
         int sum = 0;
 
@@ -16,4 +17,4 @@ class Solution {
         int answer = prod-sum;
         return answer;
     }
-}
+};
